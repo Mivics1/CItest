@@ -13,4 +13,4 @@ jobs:
       - name: Run inline script
         run: |
           ls -l
-        shell: bash
+        shell: pwsh
