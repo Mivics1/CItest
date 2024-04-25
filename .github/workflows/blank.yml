@@ -10,3 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.0
       - run: echo "This repo is ${{github.repository}}..."
+      - name: Run inline script
+        run: |
+          mkdir
+          ls -l
