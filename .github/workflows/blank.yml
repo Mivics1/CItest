@@ -12,5 +12,4 @@ jobs:
       - run: echo "This repo is ${{github.repository}}..."
       - name: Run inline script
         run: |
-          mkdir
           ls -l
