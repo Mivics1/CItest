@@ -7,3 +7,6 @@ jobs:
     
     steps:
       - run: echo "This test runs on ${{runner.os}}"
+      - name: Check out source code
+        uses: actions/checkout@4.1.4
+      - run: echo "This repo is ${{github.repository}}..."
