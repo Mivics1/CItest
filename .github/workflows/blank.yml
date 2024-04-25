@@ -8,5 +8,5 @@ jobs:
     steps:
       - run: echo "This test runs on ${{runner.os}}"
       - name: Checkout
-        uses: actions/checkout@4.1.0
+        uses: actions/checkout@v4.1.0
       - run: echo "This repo is ${{github.repository}}..."
